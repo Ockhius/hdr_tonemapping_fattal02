@@ -23,7 +23,7 @@
 6.Install Boost with `sudo apt-get install libboost-all-dev`  
 
 **Compilation:**  
-g++ -o app src/main.cpp src/FattalToneMapping.cpp src/hdrloader.cpp src/laplace.cpp -Iinclude/ \`pkg-config --libs --cflags opencv\` -lm -lfftw3 -lfftw3_threads -lpthread  
+g++ -o FattalToneMapping src/main.cpp src/FattalToneMapping.cpp src/hdrloader.cpp src/laplace.cpp -Iinclude/ \`pkg-config --libs --cflags opencv\` -lm -lfftw3 -lfftw3_threads -lpthread  
 
 **Project Files & Compilation Scripts:**  
 For Windows Visual Studio 2015 solution is under "build/vs2015/"  

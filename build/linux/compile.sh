@@ -1,1 +1,1 @@
-g++ -o app ../../src/main.cpp ../../src/FattalToneMapping.cpp ../../src/hdrloader.cpp ../../src/laplace.cpp -I../../include/ -I../../../../dev/boost_1_61_0/ -I../../../../dev/fftw-3.3.4/api `pkg-config --libs --cflags opencv` -lm -lfftw3 -lfftw3_threads -lpthread
+g++ -o FattalToneMapping ../../src/main.cpp ../../src/FattalToneMapping.cpp ../../src/hdrloader.cpp ../../src/laplace.cpp -I../../include/ `pkg-config --libs --cflags opencv` -lm -lfftw3 -lfftw3_threads -lpthread

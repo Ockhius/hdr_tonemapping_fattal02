@@ -1,6 +1,22 @@
 # Fattal02-HDR-ToneMapping
 [Fattal02](http://www.cs.huji.ac.il/~danix/hdr/hdrc.pdf) HDR Tone mapping operator. Gradient Domain High Dynamic Range Compression.
 
+**File Layout:**  
+/dev/  
+--/boost_1_61_0/  
+--/fftw-3.3.4/  
+/worksapce/  
+--/FattalToneMapping/  
+----/build/  
+------/linux/  
+--------compile.sh  
+--------install_dev_env.sh  
+------/vs2015/  
+--/include/  
+--/results/  
+--/samples/  
+--/src/  
+
 **Usage:**  
 ./app HDRInputPath LDROutputPath [AlphaMultiplier] [Bheta] [S]
 

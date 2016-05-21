@@ -22,7 +22,7 @@
 5.Install OpenCV with "sudo apt-get install libopencv-dev"  
 6.Download Boost.  
 
-**Compilation:**
+**Compilation:**  
 g++ -o app src/main.cpp src/FattalToneMapping.cpp src/hdrloader.cpp src/laplace.cpp -Iinclude/ -I"PATH_TO_BOOST_API" -I"PATH_TO_FFTW3_API" `pkg-config --libs --cflags opencv` -lm -lfftw3 -lfftw3_threads -lpthread  
 
 **Project Files & Compilation Scripts:**  

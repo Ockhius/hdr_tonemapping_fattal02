@@ -16,9 +16,9 @@
   
 **Installation:**  
 1.Download FFTW3 API.  
-2.Run ./configure --enabled-threads  
-3.sudo make  
-4.sudo make install  
+2.Run `./configure --enabled-threads`  
+3.`sudo make`  
+4.`sudo make install`  
 5.Install OpenCV with `sudo apt-get install libopencv-dev`  
 6.Install Boost with `sudo apt-get install libboost-all-dev`  
 

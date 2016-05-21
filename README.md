@@ -14,5 +14,17 @@
   bheta : 0.87  
   s : 0.55
   
+**Installation:**  
+1.Download FFTW3 API.  
+2.Run ./configure --enabled-threads  
+3.sudo make  
+4.sudo make install  
+5.Install OpenCV with "sudo apt-get install libopencv-dev"  
+6.Download Boost.  
+
+**Compilation:**
+g++ -o app src/main.cpp src/FattalToneMapping.cpp src/hdrloader.cpp src/laplace.cpp -Iinclude/ -I"PATH_TO_BOOST_API" -I"PATH_TO_FFTW3_API" `pkg-config --libs --cflags opencv` -lm -lfftw3 -lfftw3_threads -lpthread  
+
+**Project Files & Compilation Scripts:**  
 For Windows Visual Studio 2015 solution is under "build/vs2015/"  
 For Linux use "build/linux/compile.sh" to build.  

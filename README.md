@@ -19,8 +19,8 @@
 2.Run ./configure --enabled-threads  
 3.sudo make  
 4.sudo make install  
-5.Install OpenCV with "sudo apt-get install libopencv-dev"  
-6.Download Boost.  
+5.Install OpenCV with `sudo apt-get install libopencv-dev`  
+6.Install Boost with `sudo apt-get install libboost-all-dev`  
 
 **Compilation:**  
 g++ -o app src/main.cpp src/FattalToneMapping.cpp src/hdrloader.cpp src/laplace.cpp -Iinclude/ -I"PATH_TO_BOOST_API" \`pkg-config --libs --cflags opencv\` -lm -lfftw3 -lfftw3_threads -lpthread  

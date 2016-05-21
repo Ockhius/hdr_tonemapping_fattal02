@@ -2,7 +2,7 @@
 [Fattal02](http://www.cs.huji.ac.il/~danix/hdr/hdrc.pdf) HDR Tone mapping operator. Gradient Domain High Dynamic Range Compression.
 
 **Usage:**  
-./app HDRInputPath LDROutputPath [AlphaMultiplier] [Bheta] [S]
+./FattalToneMapping HDRInputPath LDROutputPath [AlphaMultiplier] [Bheta] [S]
 
 **Dependencies:**  
 *[FFTW3](http://www.fftw.org/)  
